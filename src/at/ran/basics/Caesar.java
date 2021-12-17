@@ -7,9 +7,9 @@ public class Caesar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Caesar c = new Caesar(3);
-        int Caesar = scanner.nextInt();
-        System.out.println(c.verschluessele(" "));
-        System.out.println(c.entschluessele(c.verschluessele(" ")));
+        String ceasar = scanner.next();
+        System.out.println(c.verschluessele(ceasar));
+        System.out.println(c.entschluessele(c.verschluessele(ceasar)));
     }
         HashMap<Character, Character> verschluesseln;
         HashMap<Character, Character> entschluesseln;

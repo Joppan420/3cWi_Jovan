@@ -1,4 +1,4 @@
-package at.ran.basics;
+package at.ran.StringHelper;
 
 import java.util.HashMap;
 import java.util.Scanner;

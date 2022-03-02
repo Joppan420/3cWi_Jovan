@@ -1,5 +1,8 @@
 package at.ran.OO;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Car {
 
     private Engine engine;
@@ -10,6 +13,7 @@ public class Car {
     private String color;
     private int drivenRoute;
     private int tankVolume;
+    private List<RearMirror> mirrors;
 
     public int getFuelConsumption() {
         return fuelConsumption;
@@ -74,6 +78,7 @@ public class Car {
         this.fuelConsumption = fuelConsumption;
         this.fuelAmount = fuelAmount;
         this.serialNumber = serialNumber;
+        this.mirrors = new ArrayList<>();
     }
 
     //Methode
@@ -111,5 +116,13 @@ public class Car {
 
     public void setEngine(Engine engine) {
         this.engine = engine;
+    }
+
+    public void addMirror(RearMirror rearMirror){
+        this.mirrors.add(rearMirror);
+    }
+
+    public List<RearMirror> getMirrors() {
+        return mirrors;
     }
 }

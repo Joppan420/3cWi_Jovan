@@ -11,10 +11,13 @@ public class Main {
         RearMirror r1 = new RearMirror(100,0);
         RearMirror r2 = new RearMirror(90, -40);
 
+        Tyres t1 = new Tyres(4,47);
+
         c1.addMirror(r1);
         c1.addMirror(r2);
+        c1.addTyres(t1);
 
-        System.out.println(c1.getMirrors().get(0).getPosition());
+        System.out.println(c1.getTyres().get(0).getTyreProfile());
 
     }
 

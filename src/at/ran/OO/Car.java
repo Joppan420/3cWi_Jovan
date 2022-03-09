@@ -14,6 +14,7 @@ public class Car {
     private int drivenRoute;
     private int tankVolume;
     private List<RearMirror> mirrors;
+    private List<Tyres> tyres;
 
     public int getFuelConsumption() {
         return fuelConsumption;
@@ -79,6 +80,7 @@ public class Car {
         this.fuelAmount = fuelAmount;
         this.serialNumber = serialNumber;
         this.mirrors = new ArrayList<>();
+        this.tyres = new ArrayList<>();
     }
 
     //Methode
@@ -124,5 +126,13 @@ public class Car {
 
     public List<RearMirror> getMirrors() {
         return mirrors;
+    }
+
+    public void addTyres(Tyres tyres) {
+        this.tyres.add(tyres);
+    }
+
+    public List<Tyres> getTyres() {
+        return tyres;
     }
 }

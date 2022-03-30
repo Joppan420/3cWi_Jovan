@@ -1,4 +1,4 @@
-package at.ran.OO;
+package at.ran.OO.Cars;
 
 public class Tyres {
     private int size;

@@ -10,5 +10,11 @@ public class Main {
         c1.price();
         c1.fueConsumption();
 
+        Truck t1 = new Truck("green", 120,100000,8,e1,p1,20000,"trailer1");
+
+        System.out.println(t1.getColor() + t1.getTrailer());
+        t1.drive();
+        t1.stop();
+
     }
 }

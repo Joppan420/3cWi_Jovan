@@ -81,4 +81,13 @@ public class Car {
     public void setDrivenKilometers(double drivenKilometers) {
         this.drivenKilometers = drivenKilometers;
     }
+
+    public void drive(){
+        System.out.println("I am driving");
+    }
+
+    public void stop(){
+        System.out.println("I am breaking....car");
+    }
+
 }

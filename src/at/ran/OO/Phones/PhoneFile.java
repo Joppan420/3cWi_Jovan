@@ -1,3 +1,4 @@
+/*
 package at.ran.OO.Phones;
 
 public class PhoneFile {
@@ -40,3 +41,4 @@ public class PhoneFile {
         this.size = size;
     }
 }
+*/

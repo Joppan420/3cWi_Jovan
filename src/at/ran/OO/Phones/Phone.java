@@ -1,3 +1,4 @@
+/*
 package at.ran.OO.Phones;
 
 import java.util.Date;
@@ -62,3 +63,4 @@ public class Phone {
         this.camera = camera;
     }
 }
+*/

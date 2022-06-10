@@ -1,3 +1,4 @@
+/*
 package at.ran.OO.Phones;
 
 public class Camera {
@@ -9,3 +10,4 @@ public class Camera {
         return file;
     }
 }
+*/

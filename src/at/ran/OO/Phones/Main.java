@@ -1,3 +1,4 @@
+/*
 package at.ran.OO.Phones;
 
 public class Main {
@@ -19,3 +20,5 @@ public class Main {
         phone.doCall("1234");
     }
 }
+
+ */
